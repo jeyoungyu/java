@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "java",
+			"path": ".."
+		},
+		{
+			"name": "교안",
+			"path": "../../backend/교안"
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"src"
+		],
+		"java.project.outputPath": "bin",
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar"
+		]
+	}
+}

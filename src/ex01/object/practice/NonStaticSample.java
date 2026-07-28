@@ -1,5 +1,5 @@
 //패키지 선언부
-package com.kh.object.practice;
+package ex01.object.practice;
 
 //글클래스 선언부
 public class NonStaticSample {
