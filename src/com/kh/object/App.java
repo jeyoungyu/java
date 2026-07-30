@@ -2,9 +2,9 @@
 //클래스의 일부이며 클래스를 식별하는 용도
 //상위패키지 , 하위패키지로 구분(.으로)
 //패키지 선언은 최상단에 위치하며 패키지가 잘못 작성딘 경우 오류 발생
-package ex01.object;
+package com.kh.object;
 
-import ex01.object.practice.NonStaticSample;
+import com.kh.object.practice.NonStaticSample;
 
 //다른 패키지에 있는 클래스를 사용하려면 import문을 이용해서
 //어떤 패키지의 어떤 클래스 인지 명시해야한다
