@@ -4,6 +4,7 @@ public class EmpD {
     String empId;
     String empName;
     int salary;
+    String empNo;
     
     public EmpD(String empId, String empName, int salary) {
         this.empId = empId;
