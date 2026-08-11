@@ -1,11 +1,10 @@
 package com.kh.inherit.practice;
 
-public class Student extends Person {
-
+public class Student extends Person{
     private int grade;
     private String major;
 
-
+    
     public Student() {
     }
 
@@ -14,9 +13,8 @@ public class Student extends Person {
         this.major = major;
     }
 
-    public Student(String name , int age, double height, double weight, int grade, String major) {
+    public Student(String name, int age, double height, double weight, int grade, String major) {
         super(age, height, weight);
-
         super.name = name;
         this.grade = grade;
         this.major = major;
@@ -24,15 +22,16 @@ public class Student extends Person {
 
     @Override
     public String toString() {
+        
         return super.toString() + """
                 학년 : %d
                 전공 : %s
                 """.formatted(grade, major);
     }
-
+    @Override
     public String information() {
-        return super.toString();
-              
+        // TODO Auto-generated method stub
+        return super.information();
     }
 
     public int getGrade() {
@@ -52,7 +51,5 @@ public class Student extends Person {
     }
 
     
-
     
-
 }
