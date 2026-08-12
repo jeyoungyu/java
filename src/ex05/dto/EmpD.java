@@ -1,10 +1,21 @@
 package ex05.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
 public class EmpD {
     String empId;
     String empName;
     int salary;
     String empNo;
+
+    //남자
+    //마이바티스는 객체를 자동으로 생성
+    //컬럼이름 - 소문자로 + 카멜표기법
+    LocalDate hiredate;
+
     
     public EmpD(String empId, String empName, int salary) {
         this.empId = empId;
